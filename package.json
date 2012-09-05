@@ -1,0 +1,17 @@
+{
+  "author": "Damodharan Rajalingam <damu@yahoo-inc.com>",
+  "name": "gelfr",
+  "description": "Node package to receive GELF events",
+  "version": "0.0.1",
+  "keywords": [ "gelf", "logging", "server", "monitoring" ],
+  "scripts": {
+      "test": "node test/gelfr-tests.js"
+  }
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
