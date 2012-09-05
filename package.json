@@ -6,7 +6,7 @@
   "keywords": [ "gelf", "logging", "server", "monitoring" ],
   "scripts": {
       "test": "node test/gelfr-tests.js"
-  }
+  },
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
