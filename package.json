@@ -2,7 +2,7 @@
   "author": "Damodharan Rajalingam <damu@yahoo-inc.com>",
   "name": "gelfr",
   "description": "Node package to receive GELF events",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [ "gelf", "logging", "server", "monitoring" ],
   "scripts": {
       "test": "node test/gelfr-tests.js"
@@ -13,5 +13,14 @@
   "optionalDependencies": {},
   "engines": {
     "node": ">=0.6"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/rdamodharan/node-gelfr.git"
+  },
+  "directories": {
+      "example": "./examples",
+      "lib": "./lib",
+      "test": "./test"
   }
 }
