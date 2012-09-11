@@ -25,7 +25,7 @@ var dgram = require("dgram"),
     zlib = require("zlib"),
     util = require("util"),
     EventEmitter = require("events").EventEmitter,
-    ttlStore = require("ttlStore").ttlStore;
+    ttlStore = require("./lib/ttlStore").ttlStore;
 
 var DEFAULT_PORT = 0;
 var DEFAULT_ADDR = "0.0.0.0";
